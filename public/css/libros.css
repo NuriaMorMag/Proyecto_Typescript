@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+    background-color: #716565;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+nav {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+h1{
+  text-align:center; 
+  margin-top:20px;
+}
+
+main {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 30px;
+}
+
+.contacto-container {
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.contacto-container p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 6px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 120px;
+}
+
+
+button, input[type="submit"] {
+    margin-top: 15px;
+    width: 120px;
+    padding: 10px;
+    border: none;
+    background-color: #ffd800;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #ffbb00;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}

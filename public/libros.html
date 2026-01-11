@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+  <head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="css/libros.css"> 
+    <title>tuBiblio</title> 
+  </head> 
+
+  <body> 
+      
+    <header> 
+      <img src="assets/logo_biblio.png" alt="logo" width="200px"> 
+    </header> 
+      
+    <nav> 
+      <a href="index.html">Usuario</a> 
+      <a href="libros.html">Libros</a> 
+      <a href="prestamos.html">Préstamos</a> 
+    </nav> 
+    
+    <main> 
+      <div class="contacto-container"> 
+        <h1>Alta de libro</h1> 
+
+        <form id="formAltaLibro"> 
+          <label for="titulo">Título</label> 
+          <input type="text" id="titulo" placeholder="Título del libro"> 
+          
+          <label for="autor">Autor</label> 
+          <input type="text" id="autor" placeholder="Autor del libro"> 
+          
+          <label for="genero">Género</label> 
+          <input type="text" id="genero" placeholder="Género"> 
+          <input type="submit" value="Crear libro"> 
+          <p id="msgAltaLibro"></p> 
+        </form> <hr style="margin: 30px 0;"> 
+
+        <h1>Buscar libros</h1> 
+        <form id="formBuscar"> 
+          <label for="buscarLibro">Títutlo, Autor, Género...</label> 
+          <input type="text" id="generoBuscar" placeholder="Ej: Fantasía, Terror, Romance..."> 
+          <input type="submit" value="Buscar"> 
+        </form> 
+        <br> 
+        
+          <table id="tablaLibros" style="width:100%; border-collapse: collapse; margin-top:20px;"> 
+            <thead> <tr style="background:#eee;"> 
+              <th style="padding:8px; border:1px solid #ccc;">ID</th> 
+              <th style="padding:8px; border:1px solid #ccc;">Título</th> 
+              <th style="padding:8px; border:1px solid #ccc;">Autor</th> 
+              <th style="padding:8px; border:1px solid #ccc;">Disponible</th> 
+            </tr> 
+          </thead> 
+          <tbody></tbody> 
+        </table> 
+      </div> 
+    </main> 
+
+        <footer> 
+      <p>tuBilio - 2025/2026</p> 
+    </footer> 
+    
+    <script src="js/libros.js"></script>
+
+  </body>
+</html>

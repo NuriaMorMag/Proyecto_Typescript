@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+    background-color: #716565;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+nav {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+h1{
+  text-align:center; 
+  margin-top:20px;
+}
+
+form { 
+  width: 300px; 
+  margin: 30px auto; 
+  padding: 15px; 
+} 
+
+form label { 
+  display: block; 
+  margin-bottom: 5px; 
+  font-weight: bold; 
+} 
+
+form input { 
+  width: 100%; 
+  margin-bottom: 10px; 
+  padding: 5px; } 
+  
+form input[type="submit"], 
+form button { 
+  width: 100%; 
+  padding: 8px; 
+  background-color: yellow; 
+  border: 1px solid #000; 
+  border-radius: 5px; 
+  font-weight: bold; 
+ cursor: pointer; 
+} 
+  
+table { 
+  width: 90%; 
+  margin: 20px auto; 
+  border-collapse: collapse; 
+  background-color: #fff; 
+} 
+  
+table th, 
+table td { 
+    border: 1px solid #ccc; 
+    padding: 8px; 
+    text-align: center; 
+} 
+    
+table th { 
+  background-color: #e6e6e6; 
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
