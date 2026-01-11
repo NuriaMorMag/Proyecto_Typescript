@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+  <head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="css/prestamos.css"> 
+    <title>tuBiblio</title>
+  </head> 
+
+  <body>
+
+    <header> 
+      <img src="assets/logo_biblio.png" alt="logo" width="200px"> 
+    </header> 
+
+    <nav>
+      <a href="index.html">Usuario</a>
+      <a href="libros.html">Libros</a>
+      <a href="prestamos.html">Préstamos</a>
+    </nav>
+
+    <main>
+
+      <h1>Registrar nuevo préstamo</h1>
+
+      <form id="formPrestamo">
+        <label for="socioId">ID del socio</label>
+        <input type="number" id="socioId" placeholder="ID socio">
+
+        <label for="libroId">ID del libro</label>
+        <input type="number" id="libroId" placeholder="ID libro">
+
+        <label for="dias">Días de préstamo</label>
+        <input type="number" id="dias" value="7">
+
+        <input type="submit" value="Crear préstamo">
+
+        <p id="msgPrestamo"></p>
+      </form>
+
+      <h1>Listados de préstamos</h1>
+
+      <table id="tablaPrestamos">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Socio</th>
+            <th>Libro</th>
+            <th>Prestado</th>
+            <th>Vence</th>
+            <th>Devuelto</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <h1>Registrar devolución</h1>
+
+      <form id="formDevolucion">
+        <label for="idPrestamoDev">ID del préstamo</label>
+        <input type="number" id="idPrestamoDev" placeholder="ID préstamo">
+
+        <input type="submit" value="Registrar devolución">
+
+        <p id="msgDevolucion"></p>
+      </form>
+
+    </main>
+
+      <footer> 
+        <p>tuBilio - 2025/2026</p> 
+      </footer> 
+
+    <script src="js/prestamos.js"></script>
+
+  </body>
+</html>
