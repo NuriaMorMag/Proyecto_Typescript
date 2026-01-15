@@ -81,3 +81,6 @@ formConsulta.addEventListener("submit", function (e) {
     }
     formConsulta.reset();
 });
+
+//Obtener el año actual para el footer
+document.getElementById('year').textContent = new Date().getFullYear();
